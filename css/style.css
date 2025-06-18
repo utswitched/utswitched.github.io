@@ -6,6 +6,15 @@ body {
     text-align: center;
 }
 
+@font-face {
+    font-family: 'Determination Mono';
+    src: url('/font/DeterminationMono.woff2') format('woff2'),
+        url('/font/DeterminationMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 a {
     color:#00daff;
     transition: color linear 100ms;
@@ -43,22 +52,31 @@ p {
 
 .content {
     margin:64px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
-@font-face {
-    font-family: 'Determination Mono';
-    src: url('/font/DeterminationMono.woff2') format('woff2'),
-        url('/font/DeterminationMono.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+.content-desc {
+    max-width:600px;
 }
+
+.content-links {
+    margin-bottom:0;
+}
+
+.footer {
+    font-size:10px;
+}
+
+.footer hr {
+    border-color:#222;
+    border-width:2px; 
+    border-style: solid;
+}
+
 
 @media only screen and (max-width: 600px) {
-    p {
-        font-size:12px;
-    }
-
     .navbar a {
         margin:12px;
         font-size:14px;
