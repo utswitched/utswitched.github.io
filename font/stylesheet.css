@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Determination Mono';
+    src: url('DeterminationMono.woff2') format('woff2'),
+        url('DeterminationMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
