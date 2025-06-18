@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    background-color: black;
+    color:white;
+    font-family:'Determination Mono';
+    text-align: center;
+}
+
+a {
+    color:#00daff;
+    transition: color linear 100ms;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ff002a;
+    transition:linear 100ms;
+}
+
+p {
+    padding:16px 0;
+}
+
+.navbar { 
+    background: hsla(189, 100%, 50%, 1);
+    background: linear-gradient(0deg, hsla(189, 100%, 50%, 1) 0%, hsla(269, 70%, 51%, 1) 50%, hsla(350, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(189, 100%, 50%, 1) 0%, hsla(269, 70%, 51%, 1) 50%, hsla(350, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(189, 100%, 50%, 1) 0%, hsla(269, 70%, 51%, 1) 50%, hsla(350, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00DAFF", endColorstr="#7E29D9", GradientType=1 );
+    background-size:100% 100vh; 
+
+    color:black;
+    padding-top:10px;
+    padding-bottom:10px; 
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.navbar a {
+    color:black;
+    margin:32px;
+}
+
+.content {
+    margin:64px;
+}
+
+@font-face {
+    font-family: 'Determination Mono';
+    src: url('/font/DeterminationMono.woff2') format('woff2'),
+        url('/font/DeterminationMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size:12px;
+    }
+
+    .navbar a {
+        margin:12px;
+        font-size:14px;
+    }
+
+    .content {
+        margin:16px;
+    }
+}
