@@ -17,6 +17,33 @@
             padding:0;
             margin:0;
         }
+
+        .news-post {
+            border-style:solid;
+            border-width:4px;
+            padding:24px;
+            margin-top:32px;
+            text-align:left; 
+        }
+
+        .news-image {
+            width:100%;
+            margin-bottom:10px;
+            outline-style: solid;
+            outline-width: 2px;
+            outline-color: #2b2b2b;
+        }
+
+        .news-date {
+            font-size:12px; 
+            color:rgb(167, 164, 164);
+        }
+
+        @media only screen and (max-width: 600px) {
+            .news-post {
+                width: 300px
+            }
+        }
     </style>
 </head>
 <body>
@@ -30,13 +57,17 @@
         <a href="/news/">NEWS</a>
     </div>
 
-    <!-- Game/Website Content -->
+    <!-- Newsletters -->
     <div class="content">
         <img src="/img/title.png" style="width:100%; max-width:600px;">
-        <p style="font-size:32px;">NEWSLETTER</p>
-       <p style="margin-top:32px;">Work in progress! - sushiwt</p>
-       <p style="margin-top:32px;">Here are the available newsletters:</p>
-       <a href="https://docs.google.com/document/d/12-Y0Ve_VNgOusZb9qZTk6QYz9d7u0TX41VGZk35bFjo/">2025-03-26: The First Newsletter</a>
+        <p style="font-size:32px;">NEWSLETTERS</p>
+        <div class="news-post">
+            <img class="news-image" src="/img/news/250326.png">
+            <p class="news-date">2025-03-26</p>
+            <a class="news-link" href="https://docs.google.com/document/d/12-Y0Ve_VNgOusZb9qZTk6QYz9d7u0TX41VGZk35bFjo/">
+                The 1st Newsletter
+            </a>
+        </div>
     </div>
         
     <div class="footer">
