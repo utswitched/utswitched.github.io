@@ -8,8 +8,16 @@ body {
 
 @font-face {
     font-family: 'Determination Mono';
-    src: url('/font/DeterminationMono.woff2') format('woff2'),
-        url('/font/DeterminationMono.woff') format('woff');
+    src: url('/font/DeterminationMono/DeterminationMono.woff2') format('woff2'),
+        url('/font/DeterminationMono/DeterminationMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PixelOperator';
+    src: url('/font/PixelOperator/PixelOperator.woff2') format('woff2'),
+        url('/font/PixelOperator/PixelOperator.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

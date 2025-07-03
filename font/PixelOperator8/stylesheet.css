@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pixel Operator 8';
+    src: url('PixelOperator8.woff2') format('woff2'),
+        url('PixelOperator8.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
