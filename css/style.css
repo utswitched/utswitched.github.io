@@ -93,4 +93,8 @@ p {
     .content {
         margin:16px;
     }
+
+    img {
+        image-rendering:pixelated;
+    }
 }
